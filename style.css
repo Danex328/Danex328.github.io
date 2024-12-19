@@ -1,0 +1,119 @@
+* {
+	padding: 0;
+	margin : 0;
+	
+}
+body {
+	font-family: Verdana;
+	font-size: 14px;
+	color: #D4D4D4;
+}
+
+
+main { 
+	width: 1280px;
+	margin: 0 auto;
+}
+
+
+header {
+	padding: 55px 160px 120px 160px;
+	background-color: #222222;
+}
+
+a {
+	text-decoration: none;
+	color: #D4D4D4;
+}
+
+ol, ul {
+	list-style-type: none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+ol  {
+	display: flex;
+	align-items: center;
+}
+
+ol li {
+	margin-right: 30px;
+}
+
+
+
+h1 {
+	font-family: "Courier New";
+	font-size: 44px;
+	font-weight: bold;
+	color: FFFFFF;
+	width: 240px;
+}
+
+ul {
+	display: flex;
+	align-items: center;
+} 
+
+ul li {
+	margin-left: 25px;
+}
+
+.header-bot {
+	display: flex;
+	justify-content: space-between; 
+	margin-top: 25px;
+}
+
+.header-bot div p {
+	width: 255px;
+	margin-top: 30px;
+	margin-bottom: 55px;
+}
+
+.header-bot-div {
+	margin-left: 90px;
+	margin-top: 90px;
+}
+
+.tour {
+	width: 240px;
+	height: 50px;
+	background: #FFCB06;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000000;
+	border-radius: 25px;
+}
+
+
+.tour:hover {
+	background-color: #D4D4D4;
+	
+	
+}
+
+a:hover {
+	color: #FFCB06; 
+}
+
+.content {
+	padding: 80px 165px 80px 165px;
+	background-color: #131313;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content div {
+	width: 172px;	
+}
+
+.content div p {	
+	
+margin-top: 35px;	
+}
